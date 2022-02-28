@@ -1,0 +1,46 @@
+.bond-type {
+    min-width: 580px;
+}
+
+.bond-type span {
+    color: #999;
+    font-size: 12px;
+}
+
+.bond-type ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.bond-type li {
+    cursor: pointer;
+    display: inline-block;
+    line-height: 20px;
+    color: #999;
+    font-size: 12px;
+    border-radius: 4px;
+    padding: 2px 6px;
+    margin-right: 6px;
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 5px #eee;
+    transition: .3s ease-in;
+}
+
+.bond-type li.active {
+    color: #fff;
+    box-shadow: 2px 2px 5px #eee;
+    background-color:#ccc;
+    background-image: linear-gradient(#f0b4b4, #f17e5b);
+}
+
+.bond-type li:hover {
+    border: 1px solid #f17e5b;
+}
+
+.bond-type .cate {
+    font-weight: 600;
+    border: 1px solid #f0b4b4;
+    background-color: #f5f5f5;
+}
